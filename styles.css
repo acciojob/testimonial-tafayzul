@@ -1,1 +1,47 @@
 /*  your css code here. If applicable */
+/* General page reset for better viewing */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* --- Requirement: Main Container --- */
+/* Properties: Padding, Background-color (#f5f5f5) */
+.testimonial-container {
+    background-color: #f5f5f5;
+    padding: 50px;
+    display: flex;             /* Align items side-by-side */
+    justify-content: center;   /* Center them */
+    gap: 20px;                 /* Space between boxes */
+    flex-wrap: wrap;           /* Responsive wrapping */
+}
+
+/* --- Requirement: Testimonial Box --- */
+/* Properties: Padding, Border, Background-color */
+.testimonial-box {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    padding: 20px;
+    width: 300px;              /* Fixed width for uniformity */
+    border-radius: 5px;        /* Optional: slight rounding looks cleaner */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Optional: subtle shadow for depth */
+}
+
+/* --- Requirement: Text --- */
+/* Properties: Normal styling */
+.testimonial-text {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333333;
+    margin-bottom: 15px;
+}
+
+/* --- Requirement: Author --- */
+/* Properties: Text-align right, Font-style italic */
+.testimonial-author {
+    text-align: right;
+    font-style: italic;
+    color: #555555;
+    margin: 0;
+    font-weight: bold;
+}
